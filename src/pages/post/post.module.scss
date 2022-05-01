@@ -1,1 +1,52 @@
-// TODO
+.banner {
+  display: flex;
+  width: 100%;
+  max-height: 400px;
+}
+
+.main {
+  margin-top: 5rem;
+  padding: 0 21rem;
+
+  h1 {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.info {
+  time {
+    font-size: 0.875rem;
+    align-items: center;
+    color: var(--gray-200);
+    + svg {
+      margin-left: 1rem;
+    }
+  }
+
+  p {
+    font-size: 0.875rem;
+
+    + svg {
+      margin-left: 1rem;
+    }
+  }
+
+  svg {
+    margin-right: 0.5rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+  section {
+    display: flex;
+  }
+}
+
+.content {
+  margin-top: 4rem;
+
+  h2 {
+    font-size: 2rem;
+  }
+}
